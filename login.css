@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(27, 145, 240);
+}
+form{
+    background-color: aliceblue;
+    position: absolute;
+    left: 42%;
+    top: 30%;
+    padding: 30px 15px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 550px;
+    height: 340px;
+}
+form > label {
+    color: rgb(137, 137, 137);
+    padding: 4px 5px;
+}
+form > input {
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(227, 227, 227);
+    color: black;
+    width: 495px;
+}
+form > textarea {
+    padding: 3px 20px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(227, 227, 227);
+    color: black;
+    height: 150px;
+}
+
+form > #button {
+    border: none;
+    background-color: rgb(12, 129, 231);
+    color: aliceblue;
+    padding: 6px 10px;
+    border-radius: 2px;
+    width: 80px;
+}
