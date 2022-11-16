@@ -16,8 +16,8 @@ pastikan alamat tidak boleh kosong dan tidak lebih sama dengan 100 kata
 
 setelah nama lengkap , email ,dan alamat terisi klik tombol daftar
 
-apabila nama lengkap , email , dan alamat benar makan akan ada tampilkan informasi sukses
+apabila nama lengkap , email , dan alamat benar makan tampilkan informasi sukses
 
-apabila nama lengkap , email , dan alamat salah , maka akan ada tampilkan informasi eror
+apabila nama lengkap , email , dan alamat salah , maka tampilkan informasi eror
 
 selesai 
