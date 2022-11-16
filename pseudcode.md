@@ -1,23 +1,48 @@
-Program Formulir_login
+Program Formulir_daftar
 
-var
-nama lengkap, alamat : kata
+dekripsi
+var nama lengkap, alamat : teks
+var email : symbol
 
 algoritma:
 
 masukan nama lengkap
-pastikan nama lengkap tidak boleh kosong dan tidak lebih sama dengan 20 kata
+
+    jika (nama lengkap di isi dan huruf <= 20 ) maka
+    
+        cetak ("sukses")
+        
+       lainnya 
+       
+         cetak("eror")
 
 masukan email
-pastikan email tidak boleh kosong dan format harus ada("@",".")
 
-masukan alamat
-pastikan alamat tidak boleh kosong dan tidak lebih sama dengan 100 kata
+    jika(email di isi dan format ada ("@","."))maka
+    
+         cetak ("sukses")
+         
+     lainnya
+     
+          cetak("eror")                   
 
-setelah nama lengkap , email ,dan alamat terisi klik tombol daftar
+masukan alamat 
 
-apabila nama lengkap , email , dan alamat benar makan tampilkan informasi sukses
+    jika (alamat di isi dan huruf <= 100) maka
+    
+          cetak ("sukses")
+          
+        lainnya
+        
+            cetak("eror")
 
-apabila nama lengkap , email , dan alamat salah , maka tampilkan informasi eror
+   jika(nama lengkap, email dan alamat sukses)maka
+   
+          cetak("informasi sukses")
+          
+         lainnya 
+         
+            cetak("informasi eror)
+          
+          
 
-selesai 
