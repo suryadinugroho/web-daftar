@@ -1,6 +1,7 @@
 Program Formulir_login
 
 var
+nama lengkap, alamat : kata
 
 algoritma:
 
@@ -15,4 +16,8 @@ pastikan alamat tidak boleh kosong dan tidak lebih sama dengan 100 kata
 
 setelah nama lengkap , email ,dan alamat terisi klik tombol daftar
 
+apabila nama lengkap , email , dan alamat benar makan akan ada tampilkan informasi sukses
 
+apabila nama lengkap , email , dan alamat salah , maka akan ada tampilkan informasi eror
+
+selesai 
