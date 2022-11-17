@@ -1,7 +1,9 @@
 Program Formulir_daftar
 
 dekripsi
+
 var nama lengkap, alamat : teks
+
 var email : vanchar
 
 algoritma:
