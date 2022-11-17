@@ -8,6 +8,18 @@ algoritma:
 
 masukan nama lengkap
 
+masukan email
+
+masukan alamat 
+
+ jika(nama lengkap, email dan alamat sukses)maka
+   
+          cetak("informasi sukses")
+          
+         lainnya 
+         
+            cetak("informasi eror)
+
     jika (nama lengkap di isi dan huruf <= 20 ) maka
     
         cetak ("sukses")
@@ -15,8 +27,6 @@ masukan nama lengkap
        lainnya 
        
          cetak("eror")
-
-masukan email
 
     jika(email di isi dan format ada ("@","."))maka
     
@@ -26,8 +36,6 @@ masukan email
      
           cetak("eror")                   
 
-masukan alamat 
-
     jika (alamat di isi dan huruf <= 100) maka
     
           cetak ("sukses")
@@ -36,13 +44,7 @@ masukan alamat
         
             cetak("eror")
 
-   jika(nama lengkap, email dan alamat sukses)maka
-   
-          cetak("informasi sukses")
-          
-         lainnya 
-         
-            cetak("informasi eror)
+  
           
           
 
