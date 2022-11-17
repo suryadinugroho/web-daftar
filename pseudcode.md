@@ -4,7 +4,7 @@ dekripsi
 
 var nama lengkap, alamat : teks
 
-var email : vanchar
+var email :simbol('@','.')
 
 algoritma:
 
