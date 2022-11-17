@@ -14,14 +14,6 @@ masukan email
 
 masukan alamat 
 
- jika(nama lengkap, email dan alamat sukses)maka
-   
-          cetak("informasi sukses")
-          
-         lainnya 
-         
-            cetak("informasi eror)
-
     jika (nama lengkap di isi dan huruf <= 20 ) maka
     
         cetak ("sukses")
@@ -45,6 +37,14 @@ masukan alamat
         lainnya
         
             cetak("eror")
+
+    jika(nama lengkap, email dan alamat sukses)maka
+   
+          cetak("informasi sukses")
+          
+         lainnya 
+         
+            cetak("informasi eror)
 
   
           
